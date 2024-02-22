@@ -1,5 +1,7 @@
 # [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&random=false&width=500&lines=React-Chess)](https://git.io/typing-svg)
 
+![react-chess](https://github.com/ShnaiderDanila/react-ts-chess/assets/116545792/b74b2ecc-6747-456b-9c29-5519cc72a49d)
+
 ## Описание проекта
 **React-Chess** - это приложение для игры в шахматы, рассчитанное на 2-х игроков. Приложение написано на **React**, с использованием **TypeScript** и применением методологии **ООП**.
 
