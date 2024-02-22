@@ -1,0 +1,19 @@
+.lost-figures {
+  margin: 0 auto;
+  background-color: transparent;
+}
+
+.lost-figures__subtitle {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.lost-figures__list {
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.lost-figures__img {
+  width: 35px;
+  height: 35px;
+}

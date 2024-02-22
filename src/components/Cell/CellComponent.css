@@ -1,0 +1,40 @@
+.cell {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cell_black {
+  background-color: #c99462;
+}
+
+.cell_white {
+  background-color: #ffffff;
+}
+
+.cell_selected {
+  background-color: #646f40;
+}
+
+.cell_under-atack {
+  background-color: #cdd26a;
+}
+
+.cell__available-circle {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background-color: #719444;
+}
+
+.cell__img {
+  width: 48px;
+  height: 48px;
+  position: relative;
+}
+
+.cell_check {
+  background-color: rgb(176, 51, 51);
+}

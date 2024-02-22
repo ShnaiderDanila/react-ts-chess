@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.chess {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+    174.2deg,
+    rgba(255, 244, 228, 1) 7.1%,
+    rgba(240, 246, 238, 1) 67.4%
+  );
+  text-align: center;
+  color: #393838;
+}
+
+.chess__title {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #393838;
+}
+
+.chess__player-turn {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.chess__wrapper {
+  display: grid;
+  gap: 100px;
+  grid-template-columns: 1fr 300px;
+  margin: 30px 0;
+}
+
+.chess__statistics {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.chess__button {
+  border: 3px solid #c99462;
+  border-radius: 5px;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  padding: 15px;
+  font-size: 16px;
+  transition: all 0.3s;
+}
+
+.chess__button:hover {
+  background-color: #c99462;
+}
